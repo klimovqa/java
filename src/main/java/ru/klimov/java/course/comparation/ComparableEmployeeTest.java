@@ -1,8 +1,7 @@
 package ru.klimov.java.course.comparation;
 
-import ru.klimov.java.course.comparation.model.Department;
-import ru.klimov.java.course.comparation.model.Employee;
-import ru.klimov.java.course.until.Helper;
+import ru.klimov.java.course.model.Department;
+import ru.klimov.java.course.model.Employee;
 
 import java.util.ArrayList;
 import java.util.Collections;

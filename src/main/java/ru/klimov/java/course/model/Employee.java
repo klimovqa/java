@@ -1,4 +1,4 @@
-package ru.klimov.java.course.comparation.model;
+package ru.klimov.java.course.model;
 
 public class Employee {
 
