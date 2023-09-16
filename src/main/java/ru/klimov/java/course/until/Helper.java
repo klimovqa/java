@@ -9,4 +9,11 @@ public class Helper {
         System.out.println(list);
         System.out.println("----------------------------------------------------------------------");
     }
+
+    public static void measureTime(Runnable task) {
+        long startTime = System.currentTimeMillis();
+        task.run();
+        long elapsed = System.currentTimeMillis() - startTime;
+        System.out.println("Затраченное время: " + elapsed + " ms");
+    }
 }
