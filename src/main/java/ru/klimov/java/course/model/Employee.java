@@ -1,5 +1,7 @@
 package ru.klimov.java.course.model;
 
+import java.util.Objects;
+
 public class Employee {
 
     Integer id;
@@ -66,6 +68,19 @@ public class Employee {
         this.age = age;
         this.salary = salary;
         this.department = department;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return Objects.equals(id, employee.id) && Objects.equals(name, employee.name) && Objects.equals(surname, employee.surname) && Objects.equals(age, employee.age) && Objects.equals(salary, employee.salary) && Objects.equals(department, employee.department);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, surname, age, salary, department);
     }
 
     @Override
