@@ -1,4 +1,4 @@
-package ru.klimov.java.course.thread;
+package ru.klimov.java.course.multithreading;
 
 import java.util.Random;
 import java.util.stream.IntStream;
