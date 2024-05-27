@@ -18,7 +18,7 @@ public class FileWriteEx {
                 """;
         FileWriter fileWriter = null;
         try {
-            fileWriter = new FileWriter("C:\\Users\\Medved\\Downloads\\text.txt");
+            fileWriter = new FileWriter("text.txt");
             //for (int i = 0; i < text.length(); i++) {
                 //fileWriter.write(text.charAt(i));
                 fileWriter.write(text);
