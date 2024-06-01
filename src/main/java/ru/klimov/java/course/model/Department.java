@@ -1,9 +1,10 @@
 package ru.klimov.java.course.model;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 
-public class Department implements Comparable<Department>{
+public class Department implements Comparable<Department>, Serializable {
 
     Integer id;
     String name;
