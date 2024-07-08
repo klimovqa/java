@@ -1,7 +1,7 @@
-package ru.klimov.java.course.pattern.duck;
+package ru.klimov.java.course.pattern.strategy.duck;
 
-import ru.klimov.java.course.pattern.duck.behavior.imp.FlyNoWay;
-import ru.klimov.java.course.pattern.duck.behavior.imp.Quack;
+import ru.klimov.java.course.pattern.strategy.duck.behavior.imp.FlyNoWay;
+import ru.klimov.java.course.pattern.strategy.duck.behavior.imp.Quack;
 
 public class ModelDuck extends Duck {
 

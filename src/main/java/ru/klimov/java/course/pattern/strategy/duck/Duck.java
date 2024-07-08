@@ -1,7 +1,7 @@
-package ru.klimov.java.course.pattern.duck;
+package ru.klimov.java.course.pattern.strategy.duck;
 
-import ru.klimov.java.course.pattern.duck.behavior.FlyBehavior;
-import ru.klimov.java.course.pattern.duck.behavior.QuackBehavior;
+import ru.klimov.java.course.pattern.strategy.duck.behavior.FlyBehavior;
+import ru.klimov.java.course.pattern.strategy.duck.behavior.QuackBehavior;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

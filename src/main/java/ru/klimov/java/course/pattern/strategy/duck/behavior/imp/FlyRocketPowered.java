@@ -1,6 +1,6 @@
-package ru.klimov.java.course.pattern.duck.behavior.imp;
+package ru.klimov.java.course.pattern.strategy.duck.behavior.imp;
 
-import ru.klimov.java.course.pattern.duck.behavior.FlyBehavior;
+import ru.klimov.java.course.pattern.strategy.duck.behavior.FlyBehavior;
 
 public class FlyRocketPowered implements FlyBehavior {
     @Override
